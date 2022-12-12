@@ -20,6 +20,14 @@ class Home extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->view('index');   
+		$this->load->view('index');
+	}
+	public function userprofile()
+	{
+		$this->load->view('apps/customers/view');
+	}
+	public function completeReport()
+	{
+		$this->load->view('complete_report');
 	}
 }
