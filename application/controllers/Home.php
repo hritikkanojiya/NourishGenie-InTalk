@@ -30,4 +30,12 @@ class Home extends CI_Controller {
 	{
 		$this->load->view('complete_report');
 	}
+	public function subscriptionDetails()
+	{
+		$this->load->view('subscriptionDetails');
+	}
+	public function weightCheck()
+	{
+		$this->load->view('weightCheck');
+	}
 }
