@@ -38,4 +38,24 @@ class Home extends CI_Controller {
 	{
 		$this->load->view('weightCheck');
 	}
+	public function viewVitamins()
+	{
+		$this->load->view('viewVitamins');
+	}
+	public function viewDiet()
+	{
+		$this->load->view('viewDiet');
+	}
+	public function messages()
+	{
+		$this->load->view('messages');
+	}
+	public function whatsappChats()
+	{
+		$this->load->view('whatsappChats');
+	}
+	public function postFeedback()
+	{
+		$this->load->view('postFeedback');
+	}
 }
