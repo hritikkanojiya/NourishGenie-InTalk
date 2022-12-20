@@ -24,7 +24,7 @@ class Home extends CI_Controller {
 	}
 	public function userprofile()
 	{
-		$this->load->view('apps/customers/view');
+		$this->load->view('userprofile');
 	}
 	public function completeReport()
 	{
@@ -57,5 +57,9 @@ class Home extends CI_Controller {
 	public function postFeedback()
 	{
 		$this->load->view('postFeedback');
+	}
+	public function foodDiary()
+	{
+		$this->load->view('foodDiary');
 	}
 }
