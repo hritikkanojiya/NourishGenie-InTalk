@@ -89,26 +89,28 @@
 									
 										</div>
 										<!--end::Card header-->
-										<!--begin::Card body-->
-										<div class="card-body">
+									
+
+
+										<!--begin::Body-->
+									<div class="card-body py-3">
+										<!--begin::Table container-->
+										<div class="table-responsive">
 											<!--begin::Table-->
-											<table class="table align-middle table-row-dashed fs-6 gy-3" id="kt_table_widget_5_table">
+											<table class="table align-middle gs-0 gy-4">
 												<!--begin::Table head-->
 												<thead>
-													<!--begin::Table row-->
-													<tr class="text-start text-gray-400 fw-bold fs-7 text-uppercase gs-0">
-														
-														<th class="text-center pe-3 min-w-100px">Date</th>
+													<tr class="fw-bold text-muted bg-light">
+													<th class="text-center pe-3 min-w-100px">Date</th>
 														<th class="text-center pe-3 min-w-150px">Weight loss</th>
 														<th class="text-center pe-3 min-w-100px">Qty</th>
 														<th class="text-center pe-3 min-w-100px">Short Dec</th>
 													</tr>
-													<!--end::Table row-->
 												</thead>
 												<!--end::Table head-->
 												<!--begin::Table body-->
-												<tbody class="fw-bold text-gray-600">
-													<tr>
+												<tbody>
+												<tr>
 														<td class="text-center">13 Dec2021</td>
 														<td class="text-center">1KG</td>
 														<td class="text-center">View Diet content</td>
@@ -135,14 +137,14 @@
 														<td class="text-center">View Diet content</td>
 														<td class="text-center">Short dec</td>
 													</tr>
-											
-												
 												</tbody>
 												<!--end::Table body-->
 											</table>
 											<!--end::Table-->
 										</div>
-										<!--end::Card body-->
+										<!--end::Table container-->
+									</div>
+									<!--begin::Body-->
 									</div>
 									<!--end::Table Widget 5-->
 								</div>
