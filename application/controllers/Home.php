@@ -26,6 +26,31 @@ class Home extends CI_Controller {
 	{
 		$this->load->view('userprofile');
 	}
+	
+	public function medicalHistory()
+	{
+		$this->load->view('medical_history');
+	}
+	public function minorComplaints()
+	{
+		$this->load->view('minorComplaints');
+	}
+	public function listOfMedicine()
+	{
+		$this->load->view('listOfMedicine');
+	}
+	public function excessRoutine()
+	{
+		$this->load->view('excessRoutine');
+	}
+	public function averageEatingPattern()
+	{
+		$this->load->view('averageEatingPattern');
+	}
+	public function shortDiscription()
+	{
+		$this->load->view('shortDiscription');
+	}
 	public function completeReport()
 	{
 		$this->load->view('complete_report');
@@ -49,6 +74,18 @@ class Home extends CI_Controller {
 	public function messages()
 	{
 		$this->load->view('messages');
+	}
+	public function messageSent()
+	{
+		$this->load->view('messageSent');
+	}
+	public function messageReceived()
+	{
+		$this->load->view('messageReceived');
+	}
+	public function messageSentByPooja()
+	{
+		$this->load->view('messageSentByPooja');
 	}
 	public function whatsappChats()
 	{

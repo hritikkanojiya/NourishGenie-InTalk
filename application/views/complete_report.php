@@ -1,16 +1,5 @@
 <?php $this->load->view('header'); ?>
-<!--begin::Body-->
 
-<body id="kt_body" class="header-fixed header-tablet-and-mobile-fixed aside-fixed aside-secondary-disabled">
-	<!--begin::Theme mode setup on page load-->
-	<script>var defaultThemeMode = "light"; var themeMode; if (document.documentElement) { if (document.documentElement.hasAttribute("data-theme-mode")) { themeMode = document.documentElement.getAttribute("data-theme-mode"); } else { if (localStorage.getItem("data-theme") !== null) { themeMode = localStorage.getItem("data-theme"); } else { themeMode = defaultThemeMode; } } if (themeMode === "system") { themeMode = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light"; } document.documentElement.setAttribute("data-theme", themeMode); }</script>
-	<!--end::Theme mode setup on page load-->
-	<!--begin::Main-->
-	<!--begin::Root-->
-	<div class="d-flex flex-column flex-root">
-		<!--begin::Page-->
-		<div class="page d-flex flex-row flex-column-fluid">
-			<?php $this->load->view('menu') ?>
 			<!--begin::Wrapper-->
 			<div class="wrapper d-flex flex-column flex-row-fluid" id="kt_wrapper">
 				<!--begin::Header tablet and mobile-->
