@@ -99,4 +99,8 @@ class Home extends CI_Controller {
 	{
 		$this->load->view('foodDiary');
 	}
+	public function remainingQuota()
+	{
+		$this->load->view('remainingQuota');
+	}
 }
