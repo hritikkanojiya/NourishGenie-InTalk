@@ -42,7 +42,7 @@
 				class="page-title d-flex flex-column align-items-start justify-content-center flex-wrap me-lg-20 py-3 py-lg-0 me-3">
 				<!--begin::Heading-->
 				<h1 class="d-flex flex-column text-dark fw-bold my-1">
-					<span class="text-white fs-1">Food Diary</span>
+					<span class="text-white fs-1">Activity Diary</span>
 				</h1>
 				<!--end::Heading-->
 				<!--begin::Breadcrumb-->
@@ -50,7 +50,7 @@
 					<li class="breadcrumb-item text-gray-600">
 						<a href="../../demo9/dist/index.html" class="text-gray-600">Home</a>
 					</li>
-					<li class="breadcrumb-item text-gray-600">Food Diary</li>
+					<li class="breadcrumb-item text-gray-600">Activity Diary</li>
 				</ul>
 				<!--end::Breadcrumb-->
 			</div>
@@ -393,12 +393,7 @@
 					<ul class="nav nav-stretch nav-line-tabs nav-line-tabs-2x border-transparent fs-5 fw-bold">
 						<!--begin::Nav item-->
 						<li class="nav-item mt-2">
-							<a class="nav-link text-active-primary ms-0 me-10 py-5 active" href="foodDiary">Food
-								Diary</a>
-						</li>
-						<li class="nav-item mt-2">
-							<a class="nav-link text-active-primary ms-0 me-10 py-5 " href="remainingQuota">Remaining
-								Quota</a>
+							<a class="nav-link text-active-primary ms-0 me-10 py-5 active" href="activityDiary">Activity Diary</a>
 						</li>
 						<!--end::Nav item-->
 
@@ -414,7 +409,7 @@
 					<!--begin::Header-->
 					<div class="card-header border-0 pt-5">
 						<h3 class="card-title align-items-start flex-column">
-							<span class="card-label fw-bold text-dark">Food Diary</span>
+							<span class="card-label fw-bold text-dark">Activity Diary</span>
 						</h3>
 
 					</div>
@@ -634,78 +629,29 @@
 											<!--begin::Table head-->
 											<thead>
 												<tr class="fw-bold text-muted bg-light">
-													<th class="text-center pe-3 min-w-100px">Time</th>
-													<th class="text-center pe-3 min-w-150px">Food Item</th>
-													<th class="text-center pe-3 min-w-150px">Quantity</th>
-													<th class="text-center pe-3 min-w-150px">Detail</th>
+													<th class="text-center pe-3 min-w-100px">Activity Type</th>
+													<th class="text-center pe-3 min-w-150px">Duration (minutes/Steps)</th>
 												</tr>
 											</thead>
 											<!--end::Table head-->
 											<!--begin::Table body-->
 											<tbody>
 												<tr>
-													<td class="text-center">8:30 AM</td>
-													<td class="text-center">
-														<table class="table align-middle gs-0 gy-4">
-															<tr>
-																<td>Almonds</td>
-															</tr>
-															<tr>
-																<td>Skimmed Milk/Curds(Tea/Coffee)</td>
-															</tr>
-															<tr>
-																<td>95.75 Kcal <br> Allowed Calorie 505.131 Kcal</td>
-															</tr>
-														</table>
-													</td>
-													<td class="text-center">
-														<table class="table align-middle gs-0 gy-4">
-															<tr>
-																<td>7</td>
-															</tr>
-															<tr>
-																<td>1</td>
-															</tr>
-															<tr>
-																<td>Carbs Calorie :-Kcal <br> others <br>
-																	Caliore:-95.75Kca</td>
-															</tr>
-														</table>
-													</td>
-													<td class="text-center">Total intake 95.7Kal</td>
+													<td class="text-center">Fitbit</td>
+													<td class="text-center">2000 Steps</td>
 												</tr>
 												<tr>
-													<td class="text-center">8:30 AM</td>
-													<td class="text-center">
-														<table class="table align-middle gs-0 gy-4">
-															<tr>
-																<td>Almonds</td>
-															</tr>
-															<tr>
-																<td>Skimmed Milk/Curds(Tea/Coffee)</td>
-															</tr>
-															<tr>
-																<td>95.75 Kcal <br> Allowed Calorie 505.131 Kcal</td>
-															</tr>
-														</table>
-													</td>
-													<td class="text-center">
-														<table class="table align-middle gs-0 gy-4">
-															<tr>
-																<td>7</td>
-															</tr>
-															<tr>
-																<td>1</td>
-															</tr>
-															<tr>
-																<td>Carbs Calorie :-Kcal <br> others <br>
-																	Caliore:-95.75Kca</td>
-															</tr>
-														</table>
-													</td>
-													<td class="text-center">Total intake 95.7Kal</td>
+													<td class="text-center">Fitbit</td>
+													<td class="text-center">1723 Steps</td>
 												</tr>
-
+												<tr>
+													<td class="text-center">Fitbit</td>
+													<td class="text-center">3222 Steps</td>
+												</tr>
+												<tr>
+													<td class="text-center">Fitbit</td>
+													<td class="text-center">1121 Steps</td>
+												</tr>
 
 											</tbody>
 											<!--end::Table body-->
@@ -718,7 +664,8 @@
 							</div>
 							<!--end::Tap pane-->
 							<!--begin::Tap pane-->
-							<div class="tab-pane fade" id="kt_timeline_widget_3_tab_content_2" role="tabpanel">
+							<div class="tab-pane fade" id="kt_timeline_widget_3_tab_content_2"
+								role="tabpanel">
 								<!--begin::Body-->
 								<div class="card-body py-3">
 									<!--begin::Table container-->
@@ -728,78 +675,29 @@
 											<!--begin::Table head-->
 											<thead>
 												<tr class="fw-bold text-muted bg-light">
-													<th class="text-center pe-3 min-w-100px">Time</th>
-													<th class="text-center pe-3 min-w-150px">Food Item</th>
-													<th class="text-center pe-3 min-w-150px">Quantity</th>
-													<th class="text-center pe-3 min-w-150px">Detail</th>
+													<th class="text-center pe-3 min-w-100px">Activity Type</th>
+													<th class="text-center pe-3 min-w-150px">Duration (minutes/Steps)</th>
 												</tr>
 											</thead>
 											<!--end::Table head-->
 											<!--begin::Table body-->
 											<tbody>
 												<tr>
-													<td class="text-center">8:30 AM</td>
-													<td class="text-center">
-														<table class="table align-middle gs-0 gy-4">
-															<tr>
-																<td>Almonds</td>
-															</tr>
-															<tr>
-																<td>Skimmed Milk/Curds(Tea/Coffee)</td>
-															</tr>
-															<tr>
-																<td>95.75 Kcal <br> Allowed Calorie 505.131 Kcal</td>
-															</tr>
-														</table>
-													</td>
-													<td class="text-center">
-														<table class="table align-middle gs-0 gy-4">
-															<tr>
-																<td>7</td>
-															</tr>
-															<tr>
-																<td>1</td>
-															</tr>
-															<tr>
-																<td>Carbs Calorie :-Kcal <br> others <br>
-																	Caliore:-95.75Kca</td>
-															</tr>
-														</table>
-													</td>
-													<td class="text-center">Total intake 95.7Kal</td>
+													<td class="text-center">Fitbit</td>
+													<td class="text-center">2000 Steps</td>
 												</tr>
 												<tr>
-													<td class="text-center">8:30 AM</td>
-													<td class="text-center">
-														<table class="table align-middle gs-0 gy-4">
-															<tr>
-																<td>Almonds</td>
-															</tr>
-															<tr>
-																<td>Skimmed Milk/Curds(Tea/Coffee)</td>
-															</tr>
-															<tr>
-																<td>95.75 Kcal <br> Allowed Calorie 505.131 Kcal</td>
-															</tr>
-														</table>
-													</td>
-													<td class="text-center">
-														<table class="table align-middle gs-0 gy-4">
-															<tr>
-																<td>7</td>
-															</tr>
-															<tr>
-																<td>1</td>
-															</tr>
-															<tr>
-																<td>Carbs Calorie :-Kcal <br> others <br>
-																	Caliore:-95.75Kca</td>
-															</tr>
-														</table>
-													</td>
-													<td class="text-center">Total intake 95.7Kal</td>
+													<td class="text-center">Fitbit</td>
+													<td class="text-center">1723 Steps</td>
 												</tr>
-
+												<tr>
+													<td class="text-center">Fitbit</td>
+													<td class="text-center">3222 Steps</td>
+												</tr>
+												<tr>
+													<td class="text-center">Fitbit</td>
+													<td class="text-center">1121 Steps</td>
+												</tr>
 
 											</tbody>
 											<!--end::Table body-->
@@ -811,8 +709,9 @@
 								<!--begin::Body-->
 							</div>
 							<!--end::Tap pane-->
-							<!--begin::Tap pane-->
-							<div class="tab-pane fade" id="kt_timeline_widget_3_tab_content_3" role="tabpanel">
+                            <!--begin::Tap pane-->
+							<div class="tab-pane fade" id="kt_timeline_widget_3_tab_content_3"
+								role="tabpanel">
 								<!--begin::Body-->
 								<div class="card-body py-3">
 									<!--begin::Table container-->
@@ -822,78 +721,29 @@
 											<!--begin::Table head-->
 											<thead>
 												<tr class="fw-bold text-muted bg-light">
-													<th class="text-center pe-3 min-w-100px">Time</th>
-													<th class="text-center pe-3 min-w-150px">Food Item</th>
-													<th class="text-center pe-3 min-w-150px">Quantity</th>
-													<th class="text-center pe-3 min-w-150px">Detail</th>
+													<th class="text-center pe-3 min-w-100px">Activity Type</th>
+													<th class="text-center pe-3 min-w-150px">Duration (minutes/Steps)</th>
 												</tr>
 											</thead>
 											<!--end::Table head-->
 											<!--begin::Table body-->
 											<tbody>
 												<tr>
-													<td class="text-center">8:30 AM</td>
-													<td class="text-center">
-														<table class="table align-middle gs-0 gy-4">
-															<tr>
-																<td>Almonds</td>
-															</tr>
-															<tr>
-																<td>Skimmed Milk/Curds(Tea/Coffee)</td>
-															</tr>
-															<tr>
-																<td>95.75 Kcal <br> Allowed Calorie 505.131 Kcal</td>
-															</tr>
-														</table>
-													</td>
-													<td class="text-center">
-														<table class="table align-middle gs-0 gy-4">
-															<tr>
-																<td>7</td>
-															</tr>
-															<tr>
-																<td>1</td>
-															</tr>
-															<tr>
-																<td>Carbs Calorie :-Kcal <br> others <br>
-																	Caliore:-95.75Kca</td>
-															</tr>
-														</table>
-													</td>
-													<td class="text-center">Total intake 95.7Kal</td>
+													<td class="text-center">Fitbit</td>
+													<td class="text-center">2000 Steps</td>
 												</tr>
 												<tr>
-													<td class="text-center">8:30 AM</td>
-													<td class="text-center">
-														<table class="table align-middle gs-0 gy-4">
-															<tr>
-																<td>Almonds</td>
-															</tr>
-															<tr>
-																<td>Skimmed Milk/Curds(Tea/Coffee)</td>
-															</tr>
-															<tr>
-																<td>95.75 Kcal <br> Allowed Calorie 505.131 Kcal</td>
-															</tr>
-														</table>
-													</td>
-													<td class="text-center">
-														<table class="table align-middle gs-0 gy-4">
-															<tr>
-																<td>7</td>
-															</tr>
-															<tr>
-																<td>1</td>
-															</tr>
-															<tr>
-																<td>Carbs Calorie :-Kcal <br> others <br>
-																	Caliore:-95.75Kca</td>
-															</tr>
-														</table>
-													</td>
-													<td class="text-center">Total intake 95.7Kal</td>
+													<td class="text-center">Fitbit</td>
+													<td class="text-center">1723 Steps</td>
 												</tr>
-
+												<tr>
+													<td class="text-center">Fitbit</td>
+													<td class="text-center">3222 Steps</td>
+												</tr>
+												<tr>
+													<td class="text-center">Fitbit</td>
+													<td class="text-center">1121 Steps</td>
+												</tr>
 
 											</tbody>
 											<!--end::Table body-->
@@ -905,8 +755,9 @@
 								<!--begin::Body-->
 							</div>
 							<!--end::Tap pane-->
-							<!--begin::Tap pane-->
-							<div class="tab-pane fade" id="kt_timeline_widget_3_tab_content_4" role="tabpanel">
+                            <!--begin::Tap pane-->
+							<div class="tab-pane fade" id="kt_timeline_widget_3_tab_content_4"
+								role="tabpanel">
 								<!--begin::Body-->
 								<div class="card-body py-3">
 									<!--begin::Table container-->
@@ -916,78 +767,29 @@
 											<!--begin::Table head-->
 											<thead>
 												<tr class="fw-bold text-muted bg-light">
-													<th class="text-center pe-3 min-w-100px">Time</th>
-													<th class="text-center pe-3 min-w-150px">Food Item</th>
-													<th class="text-center pe-3 min-w-150px">Quantity</th>
-													<th class="text-center pe-3 min-w-150px">Detail</th>
+													<th class="text-center pe-3 min-w-100px">Activity Type</th>
+													<th class="text-center pe-3 min-w-150px">Duration (minutes/Steps)</th>
 												</tr>
 											</thead>
 											<!--end::Table head-->
 											<!--begin::Table body-->
 											<tbody>
 												<tr>
-													<td class="text-center">8:30 AM</td>
-													<td class="text-center">
-														<table class="table align-middle gs-0 gy-4">
-															<tr>
-																<td>Almonds</td>
-															</tr>
-															<tr>
-																<td>Skimmed Milk/Curds(Tea/Coffee)</td>
-															</tr>
-															<tr>
-																<td>95.75 Kcal <br> Allowed Calorie 505.131 Kcal</td>
-															</tr>
-														</table>
-													</td>
-													<td class="text-center">
-														<table class="table align-middle gs-0 gy-4">
-															<tr>
-																<td>7</td>
-															</tr>
-															<tr>
-																<td>1</td>
-															</tr>
-															<tr>
-																<td>Carbs Calorie :-Kcal <br> others <br>
-																	Caliore:-95.75Kca</td>
-															</tr>
-														</table>
-													</td>
-													<td class="text-center">Total intake 95.7Kal</td>
+													<td class="text-center">Fitbit</td>
+													<td class="text-center">2000 Steps</td>
 												</tr>
 												<tr>
-													<td class="text-center">8:30 AM</td>
-													<td class="text-center">
-														<table class="table align-middle gs-0 gy-4">
-															<tr>
-																<td>Almonds</td>
-															</tr>
-															<tr>
-																<td>Skimmed Milk/Curds(Tea/Coffee)</td>
-															</tr>
-															<tr>
-																<td>95.75 Kcal <br> Allowed Calorie 505.131 Kcal</td>
-															</tr>
-														</table>
-													</td>
-													<td class="text-center">
-														<table class="table align-middle gs-0 gy-4">
-															<tr>
-																<td>7</td>
-															</tr>
-															<tr>
-																<td>1</td>
-															</tr>
-															<tr>
-																<td>Carbs Calorie :-Kcal <br> others <br>
-																	Caliore:-95.75Kca</td>
-															</tr>
-														</table>
-													</td>
-													<td class="text-center">Total intake 95.7Kal</td>
+													<td class="text-center">Fitbit</td>
+													<td class="text-center">1723 Steps</td>
 												</tr>
-
+												<tr>
+													<td class="text-center">Fitbit</td>
+													<td class="text-center">3222 Steps</td>
+												</tr>
+												<tr>
+													<td class="text-center">Fitbit</td>
+													<td class="text-center">1121 Steps</td>
+												</tr>
 
 											</tbody>
 											<!--end::Table body-->
@@ -999,8 +801,9 @@
 								<!--begin::Body-->
 							</div>
 							<!--end::Tap pane-->
-							<!--begin::Tap pane-->
-							<div class="tab-pane fade" id="kt_timeline_widget_3_tab_content_5" role="tabpanel">
+                            <!--begin::Tap pane-->
+							<div class="tab-pane fade" id="kt_timeline_widget_3_tab_content_5"
+								role="tabpanel">
 								<!--begin::Body-->
 								<div class="card-body py-3">
 									<!--begin::Table container-->
@@ -1010,78 +813,29 @@
 											<!--begin::Table head-->
 											<thead>
 												<tr class="fw-bold text-muted bg-light">
-													<th class="text-center pe-3 min-w-100px">Time</th>
-													<th class="text-center pe-3 min-w-150px">Food Item</th>
-													<th class="text-center pe-3 min-w-150px">Quantity</th>
-													<th class="text-center pe-3 min-w-150px">Detail</th>
+													<th class="text-center pe-3 min-w-100px">Activity Type</th>
+													<th class="text-center pe-3 min-w-150px">Duration (minutes/Steps)</th>
 												</tr>
 											</thead>
 											<!--end::Table head-->
 											<!--begin::Table body-->
 											<tbody>
 												<tr>
-													<td class="text-center">8:30 AM</td>
-													<td class="text-center">
-														<table class="table align-middle gs-0 gy-4">
-															<tr>
-																<td>Almonds</td>
-															</tr>
-															<tr>
-																<td>Skimmed Milk/Curds(Tea/Coffee)</td>
-															</tr>
-															<tr>
-																<td>95.75 Kcal <br> Allowed Calorie 505.131 Kcal</td>
-															</tr>
-														</table>
-													</td>
-													<td class="text-center">
-														<table class="table align-middle gs-0 gy-4">
-															<tr>
-																<td>7</td>
-															</tr>
-															<tr>
-																<td>1</td>
-															</tr>
-															<tr>
-																<td>Carbs Calorie :-Kcal <br> others <br>
-																	Caliore:-95.75Kca</td>
-															</tr>
-														</table>
-													</td>
-													<td class="text-center">Total intake 95.7Kal</td>
+													<td class="text-center">Fitbit</td>
+													<td class="text-center">2000 Steps</td>
 												</tr>
 												<tr>
-													<td class="text-center">8:30 AM</td>
-													<td class="text-center">
-														<table class="table align-middle gs-0 gy-4">
-															<tr>
-																<td>Almonds</td>
-															</tr>
-															<tr>
-																<td>Skimmed Milk/Curds(Tea/Coffee)</td>
-															</tr>
-															<tr>
-																<td>95.75 Kcal <br> Allowed Calorie 505.131 Kcal</td>
-															</tr>
-														</table>
-													</td>
-													<td class="text-center">
-														<table class="table align-middle gs-0 gy-4">
-															<tr>
-																<td>7</td>
-															</tr>
-															<tr>
-																<td>1</td>
-															</tr>
-															<tr>
-																<td>Carbs Calorie :-Kcal <br> others <br>
-																	Caliore:-95.75Kca</td>
-															</tr>
-														</table>
-													</td>
-													<td class="text-center">Total intake 95.7Kal</td>
+													<td class="text-center">Fitbit</td>
+													<td class="text-center">1723 Steps</td>
 												</tr>
-
+												<tr>
+													<td class="text-center">Fitbit</td>
+													<td class="text-center">3222 Steps</td>
+												</tr>
+												<tr>
+													<td class="text-center">Fitbit</td>
+													<td class="text-center">1121 Steps</td>
+												</tr>
 
 											</tbody>
 											<!--end::Table body-->
@@ -1093,8 +847,9 @@
 								<!--begin::Body-->
 							</div>
 							<!--end::Tap pane-->
-							<!--begin::Tap pane-->
-							<div class="tab-pane fade" id="kt_timeline_widget_3_tab_content_6" role="tabpanel">
+                            <!--begin::Tap pane-->
+							<div class="tab-pane fade" id="kt_timeline_widget_3_tab_content_6"
+								role="tabpanel">
 								<!--begin::Body-->
 								<div class="card-body py-3">
 									<!--begin::Table container-->
@@ -1104,78 +859,29 @@
 											<!--begin::Table head-->
 											<thead>
 												<tr class="fw-bold text-muted bg-light">
-													<th class="text-center pe-3 min-w-100px">Time</th>
-													<th class="text-center pe-3 min-w-150px">Food Item</th>
-													<th class="text-center pe-3 min-w-150px">Quantity</th>
-													<th class="text-center pe-3 min-w-150px">Detail</th>
+													<th class="text-center pe-3 min-w-100px">Activity Type</th>
+													<th class="text-center pe-3 min-w-150px">Duration (minutes/Steps)</th>
 												</tr>
 											</thead>
 											<!--end::Table head-->
 											<!--begin::Table body-->
 											<tbody>
 												<tr>
-													<td class="text-center">8:30 AM</td>
-													<td class="text-center">
-														<table class="table align-middle gs-0 gy-4">
-															<tr>
-																<td>Almonds</td>
-															</tr>
-															<tr>
-																<td>Skimmed Milk/Curds(Tea/Coffee)</td>
-															</tr>
-															<tr>
-																<td>95.75 Kcal <br> Allowed Calorie 505.131 Kcal</td>
-															</tr>
-														</table>
-													</td>
-													<td class="text-center">
-														<table class="table align-middle gs-0 gy-4">
-															<tr>
-																<td>7</td>
-															</tr>
-															<tr>
-																<td>1</td>
-															</tr>
-															<tr>
-																<td>Carbs Calorie :-Kcal <br> others <br>
-																	Caliore:-95.75Kca</td>
-															</tr>
-														</table>
-													</td>
-													<td class="text-center">Total intake 95.7Kal</td>
+													<td class="text-center">Fitbit</td>
+													<td class="text-center">2000 Steps</td>
 												</tr>
 												<tr>
-													<td class="text-center">8:30 AM</td>
-													<td class="text-center">
-														<table class="table align-middle gs-0 gy-4">
-															<tr>
-																<td>Almonds</td>
-															</tr>
-															<tr>
-																<td>Skimmed Milk/Curds(Tea/Coffee)</td>
-															</tr>
-															<tr>
-																<td>95.75 Kcal <br> Allowed Calorie 505.131 Kcal</td>
-															</tr>
-														</table>
-													</td>
-													<td class="text-center">
-														<table class="table align-middle gs-0 gy-4">
-															<tr>
-																<td>7</td>
-															</tr>
-															<tr>
-																<td>1</td>
-															</tr>
-															<tr>
-																<td>Carbs Calorie :-Kcal <br> others <br>
-																	Caliore:-95.75Kca</td>
-															</tr>
-														</table>
-													</td>
-													<td class="text-center">Total intake 95.7Kal</td>
+													<td class="text-center">Fitbit</td>
+													<td class="text-center">1723 Steps</td>
 												</tr>
-
+												<tr>
+													<td class="text-center">Fitbit</td>
+													<td class="text-center">3222 Steps</td>
+												</tr>
+												<tr>
+													<td class="text-center">Fitbit</td>
+													<td class="text-center">1121 Steps</td>
+												</tr>
 
 											</tbody>
 											<!--end::Table body-->
@@ -1187,8 +893,9 @@
 								<!--begin::Body-->
 							</div>
 							<!--end::Tap pane-->
-							<!--begin::Tap pane-->
-							<div class="tab-pane fade" id="kt_timeline_widget_3_tab_content_7" role="tabpanel">
+                            <!--begin::Tap pane-->
+							<div class="tab-pane fade" id="kt_timeline_widget_3_tab_content_7"
+								role="tabpanel">
 								<!--begin::Body-->
 								<div class="card-body py-3">
 									<!--begin::Table container-->
@@ -1198,78 +905,29 @@
 											<!--begin::Table head-->
 											<thead>
 												<tr class="fw-bold text-muted bg-light">
-													<th class="text-center pe-3 min-w-100px">Time</th>
-													<th class="text-center pe-3 min-w-150px">Food Item</th>
-													<th class="text-center pe-3 min-w-150px">Quantity</th>
-													<th class="text-center pe-3 min-w-150px">Detail</th>
+													<th class="text-center pe-3 min-w-100px">Activity Type</th>
+													<th class="text-center pe-3 min-w-150px">Duration (minutes/Steps)</th>
 												</tr>
 											</thead>
 											<!--end::Table head-->
 											<!--begin::Table body-->
 											<tbody>
 												<tr>
-													<td class="text-center">8:30 AM</td>
-													<td class="text-center">
-														<table class="table align-middle gs-0 gy-4">
-															<tr>
-																<td>Almonds</td>
-															</tr>
-															<tr>
-																<td>Skimmed Milk/Curds(Tea/Coffee)</td>
-															</tr>
-															<tr>
-																<td>95.75 Kcal <br> Allowed Calorie 505.131 Kcal</td>
-															</tr>
-														</table>
-													</td>
-													<td class="text-center">
-														<table class="table align-middle gs-0 gy-4">
-															<tr>
-																<td>7</td>
-															</tr>
-															<tr>
-																<td>1</td>
-															</tr>
-															<tr>
-																<td>Carbs Calorie :-Kcal <br> others <br>
-																	Caliore:-95.75Kca</td>
-															</tr>
-														</table>
-													</td>
-													<td class="text-center">Total intake 95.7Kal</td>
+													<td class="text-center">Fitbit</td>
+													<td class="text-center">2000 Steps</td>
 												</tr>
 												<tr>
-													<td class="text-center">8:30 AM</td>
-													<td class="text-center">
-														<table class="table align-middle gs-0 gy-4">
-															<tr>
-																<td>Almonds</td>
-															</tr>
-															<tr>
-																<td>Skimmed Milk/Curds(Tea/Coffee)</td>
-															</tr>
-															<tr>
-																<td>95.75 Kcal <br> Allowed Calorie 505.131 Kcal</td>
-															</tr>
-														</table>
-													</td>
-													<td class="text-center">
-														<table class="table align-middle gs-0 gy-4">
-															<tr>
-																<td>7</td>
-															</tr>
-															<tr>
-																<td>1</td>
-															</tr>
-															<tr>
-																<td>Carbs Calorie :-Kcal <br> others <br>
-																	Caliore:-95.75Kca</td>
-															</tr>
-														</table>
-													</td>
-													<td class="text-center">Total intake 95.7Kal</td>
+													<td class="text-center">Fitbit</td>
+													<td class="text-center">1723 Steps</td>
 												</tr>
-
+												<tr>
+													<td class="text-center">Fitbit</td>
+													<td class="text-center">3222 Steps</td>
+												</tr>
+												<tr>
+													<td class="text-center">Fitbit</td>
+													<td class="text-center">1121 Steps</td>
+												</tr>
 
 											</tbody>
 											<!--end::Table body-->
@@ -1281,8 +939,9 @@
 								<!--begin::Body-->
 							</div>
 							<!--end::Tap pane-->
-							<!--begin::Tap pane-->
-							<div class="tab-pane fade" id="kt_timeline_widget_3_tab_content_8" role="tabpanel">
+                            <!--begin::Tap pane-->
+							<div class="tab-pane fade" id="kt_timeline_widget_3_tab_content_8"
+								role="tabpanel">
 								<!--begin::Body-->
 								<div class="card-body py-3">
 									<!--begin::Table container-->
@@ -1292,78 +951,29 @@
 											<!--begin::Table head-->
 											<thead>
 												<tr class="fw-bold text-muted bg-light">
-													<th class="text-center pe-3 min-w-100px">Time</th>
-													<th class="text-center pe-3 min-w-150px">Food Item</th>
-													<th class="text-center pe-3 min-w-150px">Quantity</th>
-													<th class="text-center pe-3 min-w-150px">Detail</th>
+													<th class="text-center pe-3 min-w-100px">Activity Type</th>
+													<th class="text-center pe-3 min-w-150px">Duration (minutes/Steps)</th>
 												</tr>
 											</thead>
 											<!--end::Table head-->
 											<!--begin::Table body-->
 											<tbody>
 												<tr>
-													<td class="text-center">8:30 AM</td>
-													<td class="text-center">
-														<table class="table align-middle gs-0 gy-4">
-															<tr>
-																<td>Almonds</td>
-															</tr>
-															<tr>
-																<td>Skimmed Milk/Curds(Tea/Coffee)</td>
-															</tr>
-															<tr>
-																<td>95.75 Kcal <br> Allowed Calorie 505.131 Kcal</td>
-															</tr>
-														</table>
-													</td>
-													<td class="text-center">
-														<table class="table align-middle gs-0 gy-4">
-															<tr>
-																<td>7</td>
-															</tr>
-															<tr>
-																<td>1</td>
-															</tr>
-															<tr>
-																<td>Carbs Calorie :-Kcal <br> others <br>
-																	Caliore:-95.75Kca</td>
-															</tr>
-														</table>
-													</td>
-													<td class="text-center">Total intake 95.7Kal</td>
+													<td class="text-center">Fitbit</td>
+													<td class="text-center">2000 Steps</td>
 												</tr>
 												<tr>
-													<td class="text-center">8:30 AM</td>
-													<td class="text-center">
-														<table class="table align-middle gs-0 gy-4">
-															<tr>
-																<td>Almonds</td>
-															</tr>
-															<tr>
-																<td>Skimmed Milk/Curds(Tea/Coffee)</td>
-															</tr>
-															<tr>
-																<td>95.75 Kcal <br> Allowed Calorie 505.131 Kcal</td>
-															</tr>
-														</table>
-													</td>
-													<td class="text-center">
-														<table class="table align-middle gs-0 gy-4">
-															<tr>
-																<td>7</td>
-															</tr>
-															<tr>
-																<td>1</td>
-															</tr>
-															<tr>
-																<td>Carbs Calorie :-Kcal <br> others <br>
-																	Caliore:-95.75Kca</td>
-															</tr>
-														</table>
-													</td>
-													<td class="text-center">Total intake 95.7Kal</td>
+													<td class="text-center">Fitbit</td>
+													<td class="text-center">1723 Steps</td>
 												</tr>
-
+												<tr>
+													<td class="text-center">Fitbit</td>
+													<td class="text-center">3222 Steps</td>
+												</tr>
+												<tr>
+													<td class="text-center">Fitbit</td>
+													<td class="text-center">1121 Steps</td>
+												</tr>
 
 											</tbody>
 											<!--end::Table body-->
@@ -1375,8 +985,9 @@
 								<!--begin::Body-->
 							</div>
 							<!--end::Tap pane-->
-							<!--begin::Tap pane-->
-							<div class="tab-pane fade" id="kt_timeline_widget_3_tab_content_9" role="tabpanel">
+                            <!--begin::Tap pane-->
+							<div class="tab-pane fade" id="kt_timeline_widget_3_tab_content_9"
+								role="tabpanel">
 								<!--begin::Body-->
 								<div class="card-body py-3">
 									<!--begin::Table container-->
@@ -1386,78 +997,29 @@
 											<!--begin::Table head-->
 											<thead>
 												<tr class="fw-bold text-muted bg-light">
-													<th class="text-center pe-3 min-w-100px">Time</th>
-													<th class="text-center pe-3 min-w-150px">Food Item</th>
-													<th class="text-center pe-3 min-w-150px">Quantity</th>
-													<th class="text-center pe-3 min-w-150px">Detail</th>
+													<th class="text-center pe-3 min-w-100px">Activity Type</th>
+													<th class="text-center pe-3 min-w-150px">Duration (minutes/Steps)</th>
 												</tr>
 											</thead>
 											<!--end::Table head-->
 											<!--begin::Table body-->
 											<tbody>
 												<tr>
-													<td class="text-center">8:30 AM</td>
-													<td class="text-center">
-														<table class="table align-middle gs-0 gy-4">
-															<tr>
-																<td>Almonds</td>
-															</tr>
-															<tr>
-																<td>Skimmed Milk/Curds(Tea/Coffee)</td>
-															</tr>
-															<tr>
-																<td>95.75 Kcal <br> Allowed Calorie 505.131 Kcal</td>
-															</tr>
-														</table>
-													</td>
-													<td class="text-center">
-														<table class="table align-middle gs-0 gy-4">
-															<tr>
-																<td>7</td>
-															</tr>
-															<tr>
-																<td>1</td>
-															</tr>
-															<tr>
-																<td>Carbs Calorie :-Kcal <br> others <br>
-																	Caliore:-95.75Kca</td>
-															</tr>
-														</table>
-													</td>
-													<td class="text-center">Total intake 95.7Kal</td>
+													<td class="text-center">Fitbit</td>
+													<td class="text-center">2000 Steps</td>
 												</tr>
 												<tr>
-													<td class="text-center">8:30 AM</td>
-													<td class="text-center">
-														<table class="table align-middle gs-0 gy-4">
-															<tr>
-																<td>Almonds</td>
-															</tr>
-															<tr>
-																<td>Skimmed Milk/Curds(Tea/Coffee)</td>
-															</tr>
-															<tr>
-																<td>95.75 Kcal <br> Allowed Calorie 505.131 Kcal</td>
-															</tr>
-														</table>
-													</td>
-													<td class="text-center">
-														<table class="table align-middle gs-0 gy-4">
-															<tr>
-																<td>7</td>
-															</tr>
-															<tr>
-																<td>1</td>
-															</tr>
-															<tr>
-																<td>Carbs Calorie :-Kcal <br> others <br>
-																	Caliore:-95.75Kca</td>
-															</tr>
-														</table>
-													</td>
-													<td class="text-center">Total intake 95.7Kal</td>
+													<td class="text-center">Fitbit</td>
+													<td class="text-center">1723 Steps</td>
 												</tr>
-
+												<tr>
+													<td class="text-center">Fitbit</td>
+													<td class="text-center">3222 Steps</td>
+												</tr>
+												<tr>
+													<td class="text-center">Fitbit</td>
+													<td class="text-center">1121 Steps</td>
+												</tr>
 
 											</tbody>
 											<!--end::Table body-->
@@ -1469,8 +1031,9 @@
 								<!--begin::Body-->
 							</div>
 							<!--end::Tap pane-->
-							<!--begin::Tap pane-->
-							<div class="tab-pane fade" id="kt_timeline_widget_3_tab_content_10" role="tabpanel">
+                            <!--begin::Tap pane-->
+							<div class="tab-pane fade" id="kt_timeline_widget_3_tab_content_10"
+								role="tabpanel">
 								<!--begin::Body-->
 								<div class="card-body py-3">
 									<!--begin::Table container-->
@@ -1480,78 +1043,29 @@
 											<!--begin::Table head-->
 											<thead>
 												<tr class="fw-bold text-muted bg-light">
-													<th class="text-center pe-3 min-w-100px">Time</th>
-													<th class="text-center pe-3 min-w-150px">Food Item</th>
-													<th class="text-center pe-3 min-w-150px">Quantity</th>
-													<th class="text-center pe-3 min-w-150px">Detail</th>
+													<th class="text-center pe-3 min-w-100px">Activity Type</th>
+													<th class="text-center pe-3 min-w-150px">Duration (minutes/Steps)</th>
 												</tr>
 											</thead>
 											<!--end::Table head-->
 											<!--begin::Table body-->
 											<tbody>
 												<tr>
-													<td class="text-center">8:30 AM</td>
-													<td class="text-center">
-														<table class="table align-middle gs-0 gy-4">
-															<tr>
-																<td>Almonds</td>
-															</tr>
-															<tr>
-																<td>Skimmed Milk/Curds(Tea/Coffee)</td>
-															</tr>
-															<tr>
-																<td>95.75 Kcal <br> Allowed Calorie 505.131 Kcal</td>
-															</tr>
-														</table>
-													</td>
-													<td class="text-center">
-														<table class="table align-middle gs-0 gy-4">
-															<tr>
-																<td>7</td>
-															</tr>
-															<tr>
-																<td>1</td>
-															</tr>
-															<tr>
-																<td>Carbs Calorie :-Kcal <br> others <br>
-																	Caliore:-95.75Kca</td>
-															</tr>
-														</table>
-													</td>
-													<td class="text-center">Total intake 95.7Kal</td>
+													<td class="text-center">Fitbit</td>
+													<td class="text-center">2000 Steps</td>
 												</tr>
 												<tr>
-													<td class="text-center">8:30 AM</td>
-													<td class="text-center">
-														<table class="table align-middle gs-0 gy-4">
-															<tr>
-																<td>Almonds</td>
-															</tr>
-															<tr>
-																<td>Skimmed Milk/Curds(Tea/Coffee)</td>
-															</tr>
-															<tr>
-																<td>95.75 Kcal <br> Allowed Calorie 505.131 Kcal</td>
-															</tr>
-														</table>
-													</td>
-													<td class="text-center">
-														<table class="table align-middle gs-0 gy-4">
-															<tr>
-																<td>7</td>
-															</tr>
-															<tr>
-																<td>1</td>
-															</tr>
-															<tr>
-																<td>Carbs Calorie :-Kcal <br> others <br>
-																	Caliore:-95.75Kca</td>
-															</tr>
-														</table>
-													</td>
-													<td class="text-center">Total intake 95.7Kal</td>
+													<td class="text-center">Fitbit</td>
+													<td class="text-center">1723 Steps</td>
 												</tr>
-
+												<tr>
+													<td class="text-center">Fitbit</td>
+													<td class="text-center">3222 Steps</td>
+												</tr>
+												<tr>
+													<td class="text-center">Fitbit</td>
+													<td class="text-center">1121 Steps</td>
+												</tr>
 
 											</tbody>
 											<!--end::Table body-->
@@ -1563,8 +1077,9 @@
 								<!--begin::Body-->
 							</div>
 							<!--end::Tap pane-->
-							<!--begin::Tap pane-->
-							<div class="tab-pane fade" id="kt_timeline_widget_3_tab_content_11" role="tabpanel">
+                            <!--begin::Tap pane-->
+							<div class="tab-pane fade" id="kt_timeline_widget_3_tab_content_11"
+								role="tabpanel">
 								<!--begin::Body-->
 								<div class="card-body py-3">
 									<!--begin::Table container-->
@@ -1574,78 +1089,29 @@
 											<!--begin::Table head-->
 											<thead>
 												<tr class="fw-bold text-muted bg-light">
-													<th class="text-center pe-3 min-w-100px">Time</th>
-													<th class="text-center pe-3 min-w-150px">Food Item</th>
-													<th class="text-center pe-3 min-w-150px">Quantity</th>
-													<th class="text-center pe-3 min-w-150px">Detail</th>
+													<th class="text-center pe-3 min-w-100px">Activity Type</th>
+													<th class="text-center pe-3 min-w-150px">Duration (minutes/Steps)</th>
 												</tr>
 											</thead>
 											<!--end::Table head-->
 											<!--begin::Table body-->
 											<tbody>
 												<tr>
-													<td class="text-center">8:30 AM</td>
-													<td class="text-center">
-														<table class="table align-middle gs-0 gy-4">
-															<tr>
-																<td>Almonds</td>
-															</tr>
-															<tr>
-																<td>Skimmed Milk/Curds(Tea/Coffee)</td>
-															</tr>
-															<tr>
-																<td>95.75 Kcal <br> Allowed Calorie 505.131 Kcal</td>
-															</tr>
-														</table>
-													</td>
-													<td class="text-center">
-														<table class="table align-middle gs-0 gy-4">
-															<tr>
-																<td>7</td>
-															</tr>
-															<tr>
-																<td>1</td>
-															</tr>
-															<tr>
-																<td>Carbs Calorie :-Kcal <br> others <br>
-																	Caliore:-95.75Kca</td>
-															</tr>
-														</table>
-													</td>
-													<td class="text-center">Total intake 95.7Kal</td>
+													<td class="text-center">Fitbit</td>
+													<td class="text-center">2000 Steps</td>
 												</tr>
 												<tr>
-													<td class="text-center">8:30 AM</td>
-													<td class="text-center">
-														<table class="table align-middle gs-0 gy-4">
-															<tr>
-																<td>Almonds</td>
-															</tr>
-															<tr>
-																<td>Skimmed Milk/Curds(Tea/Coffee)</td>
-															</tr>
-															<tr>
-																<td>95.75 Kcal <br> Allowed Calorie 505.131 Kcal</td>
-															</tr>
-														</table>
-													</td>
-													<td class="text-center">
-														<table class="table align-middle gs-0 gy-4">
-															<tr>
-																<td>7</td>
-															</tr>
-															<tr>
-																<td>1</td>
-															</tr>
-															<tr>
-																<td>Carbs Calorie :-Kcal <br> others <br>
-																	Caliore:-95.75Kca</td>
-															</tr>
-														</table>
-													</td>
-													<td class="text-center">Total intake 95.7Kal</td>
+													<td class="text-center">Fitbit</td>
+													<td class="text-center">1723 Steps</td>
 												</tr>
-
+												<tr>
+													<td class="text-center">Fitbit</td>
+													<td class="text-center">3222 Steps</td>
+												</tr>
+												<tr>
+													<td class="text-center">Fitbit</td>
+													<td class="text-center">1121 Steps</td>
+												</tr>
 
 											</tbody>
 											<!--end::Table body-->
@@ -1657,8 +1123,9 @@
 								<!--begin::Body-->
 							</div>
 							<!--end::Tap pane-->
-							<!--begin::Tap pane-->
-							<div class="tab-pane fade" id="kt_timeline_widget_3_tab_content_12" role="tabpanel">
+                            <!--begin::Tap pane-->
+							<div class="tab-pane fade" id="kt_timeline_widget_3_tab_content_12"
+								role="tabpanel">
 								<!--begin::Body-->
 								<div class="card-body py-3">
 									<!--begin::Table container-->
@@ -1668,78 +1135,29 @@
 											<!--begin::Table head-->
 											<thead>
 												<tr class="fw-bold text-muted bg-light">
-													<th class="text-center pe-3 min-w-100px">Time</th>
-													<th class="text-center pe-3 min-w-150px">Food Item</th>
-													<th class="text-center pe-3 min-w-150px">Quantity</th>
-													<th class="text-center pe-3 min-w-150px">Detail</th>
+													<th class="text-center pe-3 min-w-100px">Activity Type</th>
+													<th class="text-center pe-3 min-w-150px">Duration (minutes/Steps)</th>
 												</tr>
 											</thead>
 											<!--end::Table head-->
 											<!--begin::Table body-->
 											<tbody>
 												<tr>
-													<td class="text-center">8:30 AM</td>
-													<td class="text-center">
-														<table class="table align-middle gs-0 gy-4">
-															<tr>
-																<td>Almonds</td>
-															</tr>
-															<tr>
-																<td>Skimmed Milk/Curds(Tea/Coffee)</td>
-															</tr>
-															<tr>
-																<td>95.75 Kcal <br> Allowed Calorie 505.131 Kcal</td>
-															</tr>
-														</table>
-													</td>
-													<td class="text-center">
-														<table class="table align-middle gs-0 gy-4">
-															<tr>
-																<td>7</td>
-															</tr>
-															<tr>
-																<td>1</td>
-															</tr>
-															<tr>
-																<td>Carbs Calorie :-Kcal <br> others <br>
-																	Caliore:-95.75Kca</td>
-															</tr>
-														</table>
-													</td>
-													<td class="text-center">Total intake 95.7Kal</td>
+													<td class="text-center">Fitbit</td>
+													<td class="text-center">2000 Steps</td>
 												</tr>
 												<tr>
-													<td class="text-center">8:30 AM</td>
-													<td class="text-center">
-														<table class="table align-middle gs-0 gy-4">
-															<tr>
-																<td>Almonds</td>
-															</tr>
-															<tr>
-																<td>Skimmed Milk/Curds(Tea/Coffee)</td>
-															</tr>
-															<tr>
-																<td>95.75 Kcal <br> Allowed Calorie 505.131 Kcal</td>
-															</tr>
-														</table>
-													</td>
-													<td class="text-center">
-														<table class="table align-middle gs-0 gy-4">
-															<tr>
-																<td>7</td>
-															</tr>
-															<tr>
-																<td>1</td>
-															</tr>
-															<tr>
-																<td>Carbs Calorie :-Kcal <br> others <br>
-																	Caliore:-95.75Kca</td>
-															</tr>
-														</table>
-													</td>
-													<td class="text-center">Total intake 95.7Kal</td>
+													<td class="text-center">Fitbit</td>
+													<td class="text-center">1723 Steps</td>
 												</tr>
-
+												<tr>
+													<td class="text-center">Fitbit</td>
+													<td class="text-center">3222 Steps</td>
+												</tr>
+												<tr>
+													<td class="text-center">Fitbit</td>
+													<td class="text-center">1121 Steps</td>
+												</tr>
 
 											</tbody>
 											<!--end::Table body-->
@@ -1751,8 +1169,9 @@
 								<!--begin::Body-->
 							</div>
 							<!--end::Tap pane-->
-							<!--begin::Tap pane-->
-							<div class="tab-pane fade" id="kt_timeline_widget_3_tab_content_13" role="tabpanel">
+                            <!--begin::Tap pane-->
+							<div class="tab-pane fade" id="kt_timeline_widget_3_tab_content_13"
+								role="tabpanel">
 								<!--begin::Body-->
 								<div class="card-body py-3">
 									<!--begin::Table container-->
@@ -1762,78 +1181,29 @@
 											<!--begin::Table head-->
 											<thead>
 												<tr class="fw-bold text-muted bg-light">
-													<th class="text-center pe-3 min-w-100px">Time</th>
-													<th class="text-center pe-3 min-w-150px">Food Item</th>
-													<th class="text-center pe-3 min-w-150px">Quantity</th>
-													<th class="text-center pe-3 min-w-150px">Detail</th>
+													<th class="text-center pe-3 min-w-100px">Activity Type</th>
+													<th class="text-center pe-3 min-w-150px">Duration (minutes/Steps)</th>
 												</tr>
 											</thead>
 											<!--end::Table head-->
 											<!--begin::Table body-->
 											<tbody>
 												<tr>
-													<td class="text-center">8:30 AM</td>
-													<td class="text-center">
-														<table class="table align-middle gs-0 gy-4">
-															<tr>
-																<td>Almonds</td>
-															</tr>
-															<tr>
-																<td>Skimmed Milk/Curds(Tea/Coffee)</td>
-															</tr>
-															<tr>
-																<td>95.75 Kcal <br> Allowed Calorie 505.131 Kcal</td>
-															</tr>
-														</table>
-													</td>
-													<td class="text-center">
-														<table class="table align-middle gs-0 gy-4">
-															<tr>
-																<td>7</td>
-															</tr>
-															<tr>
-																<td>1</td>
-															</tr>
-															<tr>
-																<td>Carbs Calorie :-Kcal <br> others <br>
-																	Caliore:-95.75Kca</td>
-															</tr>
-														</table>
-													</td>
-													<td class="text-center">Total intake 95.7Kal</td>
+													<td class="text-center">Fitbit</td>
+													<td class="text-center">2000 Steps</td>
 												</tr>
 												<tr>
-													<td class="text-center">8:30 AM</td>
-													<td class="text-center">
-														<table class="table align-middle gs-0 gy-4">
-															<tr>
-																<td>Almonds</td>
-															</tr>
-															<tr>
-																<td>Skimmed Milk/Curds(Tea/Coffee)</td>
-															</tr>
-															<tr>
-																<td>95.75 Kcal <br> Allowed Calorie 505.131 Kcal</td>
-															</tr>
-														</table>
-													</td>
-													<td class="text-center">
-														<table class="table align-middle gs-0 gy-4">
-															<tr>
-																<td>7</td>
-															</tr>
-															<tr>
-																<td>1</td>
-															</tr>
-															<tr>
-																<td>Carbs Calorie :-Kcal <br> others <br>
-																	Caliore:-95.75Kca</td>
-															</tr>
-														</table>
-													</td>
-													<td class="text-center">Total intake 95.7Kal</td>
+													<td class="text-center">Fitbit</td>
+													<td class="text-center">1723 Steps</td>
 												</tr>
-
+												<tr>
+													<td class="text-center">Fitbit</td>
+													<td class="text-center">3222 Steps</td>
+												</tr>
+												<tr>
+													<td class="text-center">Fitbit</td>
+													<td class="text-center">1121 Steps</td>
+												</tr>
 
 											</tbody>
 											<!--end::Table body-->
@@ -1845,8 +1215,9 @@
 								<!--begin::Body-->
 							</div>
 							<!--end::Tap pane-->
-							<!--begin::Tap pane-->
-							<div class="tab-pane fade" id="kt_timeline_widget_3_tab_content_14" role="tabpanel">
+                            <!--begin::Tap pane-->
+							<div class="tab-pane fade" id="kt_timeline_widget_3_tab_content_14"
+								role="tabpanel">
 								<!--begin::Body-->
 								<div class="card-body py-3">
 									<!--begin::Table container-->
@@ -1856,78 +1227,29 @@
 											<!--begin::Table head-->
 											<thead>
 												<tr class="fw-bold text-muted bg-light">
-													<th class="text-center pe-3 min-w-100px">Time</th>
-													<th class="text-center pe-3 min-w-150px">Food Item</th>
-													<th class="text-center pe-3 min-w-150px">Quantity</th>
-													<th class="text-center pe-3 min-w-150px">Detail</th>
+													<th class="text-center pe-3 min-w-100px">Activity Type</th>
+													<th class="text-center pe-3 min-w-150px">Duration (minutes/Steps)</th>
 												</tr>
 											</thead>
 											<!--end::Table head-->
 											<!--begin::Table body-->
 											<tbody>
 												<tr>
-													<td class="text-center">8:30 AM</td>
-													<td class="text-center">
-														<table class="table align-middle gs-0 gy-4">
-															<tr>
-																<td>Almonds</td>
-															</tr>
-															<tr>
-																<td>Skimmed Milk/Curds(Tea/Coffee)</td>
-															</tr>
-															<tr>
-																<td>95.75 Kcal <br> Allowed Calorie 505.131 Kcal</td>
-															</tr>
-														</table>
-													</td>
-													<td class="text-center">
-														<table class="table align-middle gs-0 gy-4">
-															<tr>
-																<td>7</td>
-															</tr>
-															<tr>
-																<td>1</td>
-															</tr>
-															<tr>
-																<td>Carbs Calorie :-Kcal <br> others <br>
-																	Caliore:-95.75Kca</td>
-															</tr>
-														</table>
-													</td>
-													<td class="text-center">Total intake 95.7Kal</td>
+													<td class="text-center">Fitbit</td>
+													<td class="text-center">2000 Steps</td>
 												</tr>
 												<tr>
-													<td class="text-center">8:30 AM</td>
-													<td class="text-center">
-														<table class="table align-middle gs-0 gy-4">
-															<tr>
-																<td>Almonds</td>
-															</tr>
-															<tr>
-																<td>Skimmed Milk/Curds(Tea/Coffee)</td>
-															</tr>
-															<tr>
-																<td>95.75 Kcal <br> Allowed Calorie 505.131 Kcal</td>
-															</tr>
-														</table>
-													</td>
-													<td class="text-center">
-														<table class="table align-middle gs-0 gy-4">
-															<tr>
-																<td>7</td>
-															</tr>
-															<tr>
-																<td>1</td>
-															</tr>
-															<tr>
-																<td>Carbs Calorie :-Kcal <br> others <br>
-																	Caliore:-95.75Kca</td>
-															</tr>
-														</table>
-													</td>
-													<td class="text-center">Total intake 95.7Kal</td>
+													<td class="text-center">Fitbit</td>
+													<td class="text-center">1723 Steps</td>
 												</tr>
-
+												<tr>
+													<td class="text-center">Fitbit</td>
+													<td class="text-center">3222 Steps</td>
+												</tr>
+												<tr>
+													<td class="text-center">Fitbit</td>
+													<td class="text-center">1121 Steps</td>
+												</tr>
 
 											</tbody>
 											<!--end::Table body-->
@@ -1939,8 +1261,9 @@
 								<!--begin::Body-->
 							</div>
 							<!--end::Tap pane-->
-							<!--begin::Tap pane-->
-							<div class="tab-pane fade" id="kt_timeline_widget_3_tab_content_15" role="tabpanel">
+                            <!--begin::Tap pane-->
+							<div class="tab-pane fade" id="kt_timeline_widget_3_tab_content_15"
+								role="tabpanel">
 								<!--begin::Body-->
 								<div class="card-body py-3">
 									<!--begin::Table container-->
@@ -1950,78 +1273,29 @@
 											<!--begin::Table head-->
 											<thead>
 												<tr class="fw-bold text-muted bg-light">
-													<th class="text-center pe-3 min-w-100px">Time</th>
-													<th class="text-center pe-3 min-w-150px">Food Item</th>
-													<th class="text-center pe-3 min-w-150px">Quantity</th>
-													<th class="text-center pe-3 min-w-150px">Detail</th>
+													<th class="text-center pe-3 min-w-100px">Activity Type</th>
+													<th class="text-center pe-3 min-w-150px">Duration (minutes/Steps)</th>
 												</tr>
 											</thead>
 											<!--end::Table head-->
 											<!--begin::Table body-->
 											<tbody>
 												<tr>
-													<td class="text-center">8:30 AM</td>
-													<td class="text-center">
-														<table class="table align-middle gs-0 gy-4">
-															<tr>
-																<td>Almonds</td>
-															</tr>
-															<tr>
-																<td>Skimmed Milk/Curds(Tea/Coffee)</td>
-															</tr>
-															<tr>
-																<td>95.75 Kcal <br> Allowed Calorie 505.131 Kcal</td>
-															</tr>
-														</table>
-													</td>
-													<td class="text-center">
-														<table class="table align-middle gs-0 gy-4">
-															<tr>
-																<td>7</td>
-															</tr>
-															<tr>
-																<td>1</td>
-															</tr>
-															<tr>
-																<td>Carbs Calorie :-Kcal <br> others <br>
-																	Caliore:-95.75Kca</td>
-															</tr>
-														</table>
-													</td>
-													<td class="text-center">Total intake 95.7Kal</td>
+													<td class="text-center">Fitbit</td>
+													<td class="text-center">2000 Steps</td>
 												</tr>
 												<tr>
-													<td class="text-center">8:30 AM</td>
-													<td class="text-center">
-														<table class="table align-middle gs-0 gy-4">
-															<tr>
-																<td>Almonds</td>
-															</tr>
-															<tr>
-																<td>Skimmed Milk/Curds(Tea/Coffee)</td>
-															</tr>
-															<tr>
-																<td>95.75 Kcal <br> Allowed Calorie 505.131 Kcal</td>
-															</tr>
-														</table>
-													</td>
-													<td class="text-center">
-														<table class="table align-middle gs-0 gy-4">
-															<tr>
-																<td>7</td>
-															</tr>
-															<tr>
-																<td>1</td>
-															</tr>
-															<tr>
-																<td>Carbs Calorie :-Kcal <br> others <br>
-																	Caliore:-95.75Kca</td>
-															</tr>
-														</table>
-													</td>
-													<td class="text-center">Total intake 95.7Kal</td>
+													<td class="text-center">Fitbit</td>
+													<td class="text-center">1723 Steps</td>
 												</tr>
-
+												<tr>
+													<td class="text-center">Fitbit</td>
+													<td class="text-center">3222 Steps</td>
+												</tr>
+												<tr>
+													<td class="text-center">Fitbit</td>
+													<td class="text-center">1121 Steps</td>
+												</tr>
 
 											</tbody>
 											<!--end::Table body-->
@@ -2033,6 +1307,7 @@
 								<!--begin::Body-->
 							</div>
 							<!--end::Tap pane-->
+						
 
 						</div>
 						<!--end::Tab Content-->

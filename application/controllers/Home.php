@@ -103,4 +103,8 @@ class Home extends CI_Controller {
 	{
 		$this->load->view('remainingQuota');
 	}
+	public function activityDiary()
+	{
+		$this->load->view('activityDiary');
+	}
 }

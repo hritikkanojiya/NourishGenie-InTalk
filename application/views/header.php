@@ -659,7 +659,7 @@ License: For each use you must have a valid license purchased only from above li
 										<!--begin:Menu item-->
 										<div class="menu-item">
 											<!--begin:Menu link-->
-											<a class="menu-link " href="../../demo9/dist/index.html">
+											<a class="menu-link " href="activityDiary">
 												<span class="menu-bullet">
 													<span class="bullet bullet-dot"></span>
 												</span>
@@ -668,18 +668,7 @@ License: For each use you must have a valid license purchased only from above li
 											<!--end:Menu link-->
 										</div>
 										<!--end:Menu item-->
-										<!--begin:Menu item-->
-										<div class="menu-item">
-											<!--begin:Menu link-->
-											<a class="menu-link " href="../../demo9/dist/index.html">
-												<span class="menu-bullet">
-													<span class="bullet bullet-dot"></span>
-												</span>
-												<span class="menu-title">Activity Diary Log</span>
-											</a>
-											<!--end:Menu link-->
-										</div>
-										<!--end:Menu item-->
+									
 								
 										
 								</div>
