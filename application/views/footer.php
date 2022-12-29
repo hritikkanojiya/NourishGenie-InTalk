@@ -31,11 +31,13 @@
 
 	var start = moment().subtract(15, "days");
 	var end = moment();
+	var maxd = moment();
 
 	$("#kt_daterangepicker_1").daterangepicker(
 		{
 			startDate: start,
 			endDate: end,
+			maxDate: maxd,
 		}
 	);
 </script>

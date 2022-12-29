@@ -419,23 +419,25 @@
 
 					</div>
 					<div class="container">
-					<div class="row">
-						<div class="col-lg-6 col-xl-6 col-xxl-6">
-							<div class="mb-0">
-								<label class="form-label">Select Date</label>
-								<input class="form-control form-control-solid" placeholder="Pick date rage"
-									id="kt_daterangepicker_1" />
+						<form method="post" action="">
+							<div class="row">
+								<div class="col-lg-6 col-xl-6 col-xxl-6">
+									<div class="mb-0">
+										<label class="form-label">Select Date</label>
+										<input class="form-control form-control-solid" placeholder="Pick date rage"
+											id="kt_daterangepicker_1" />
+									</div>
+
 								</div>
-							
-						</div>
-						<div class="col-lg-6 col-xl-6 col-xxl-6">
-							<div class="mb-0 mt-8">
-								
-									<button type="button" class="btn btn-success">Apply</button>
+								<div class="col-lg-6 col-xl-6 col-xxl-6">
+									<div class="mb-0 mt-8">
+
+										<button type="submit" class="btn btn-success">Apply</button>
+									</div>
+
 								</div>
-							
-						</div>
-					</div>
+							</div>
+						</form>
 					</div>
 					<!--end::Header-->
 
