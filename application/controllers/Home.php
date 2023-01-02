@@ -22,4 +22,89 @@ class Home extends CI_Controller {
 	{
 		$this->load->view('index');
 	}
+	public function userprofile()
+	{
+		$this->load->view('userprofile');
+	}
+	
+	public function medicalHistory()
+	{
+		$this->load->view('medical_history');
+	}
+	public function minorComplaints()
+	{
+		$this->load->view('minorComplaints');
+	}
+	public function listOfMedicine()
+	{
+		$this->load->view('listOfMedicine');
+	}
+	public function excessRoutine()
+	{
+		$this->load->view('excessRoutine');
+	}
+	public function averageEatingPattern()
+	{
+		$this->load->view('averageEatingPattern');
+	}
+	public function shortDiscription()
+	{
+		$this->load->view('shortDiscription');
+	}
+	public function completeReport()
+	{
+		$this->load->view('complete_report');
+	}
+	public function subscriptionDetails()
+	{
+		$this->load->view('subscriptionDetails');
+	}
+	public function weightCheck()
+	{
+		$this->load->view('weightCheck');
+	}
+	public function viewVitamins()
+	{
+		$this->load->view('viewVitamins');
+	}
+	public function viewDiet()
+	{
+		$this->load->view('viewDiet');
+	}
+	public function messages()
+	{
+		$this->load->view('messages');
+	}
+	public function messageSent()
+	{
+		$this->load->view('messageSent');
+	}
+	public function messageReceived()
+	{
+		$this->load->view('messageReceived');
+	}
+	public function messageSentByPooja()
+	{
+		$this->load->view('messageSentByPooja');
+	}
+	public function whatsappChats()
+	{
+		$this->load->view('whatsappChats');
+	}
+	public function postFeedback()
+	{
+		$this->load->view('postFeedback');
+	}
+	public function foodDiary()
+	{
+		$this->load->view('foodDiary');
+	}
+	public function remainingQuota()
+	{
+		$this->load->view('remainingQuota');
+	}
+	public function activityDiary()
+	{
+		$this->load->view('activityDiary');
+	}
 }
